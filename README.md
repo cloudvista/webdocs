@@ -1,7 +1,5 @@
 ## VDL to web-friendly form
-Vista document library converson to web-friendly forms using pandoc. 
-
-Images are stored in external 'images' folder; styling is referenced to in styles.css file. 
+Vista document library converson to web-friendly forms using pandoc.  Images are stored in external 'images' folder; styling is referenced to in styles.css file. 
 
 
 
