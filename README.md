@@ -41,7 +41,8 @@ html {
 
 <details>
   <summary>Reference Section</summary>
-  ## Heading
+  
+## Heading
   1. A numbered
   2. list
      * With some
