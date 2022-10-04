@@ -3,20 +3,17 @@ vista document library converson to web-friendly forms
 
 
 
-### Word to html
-converts docx to html; stores images to external media folder; adds css styling
+__Word to html__ :  converts docx to html; stores images to external media folder; adds css styling
 ```
 pandoc --extract-media=images -s mydoc.docx -t html -c styles.css -o mydoc.html
 ```
 
-### Word to markdown
-converts docx to markdown; stores images in folder
+__Word to markdown__:  converts docx to markdown; stores images in folder
 ```
 pandoc --extract-media=images -s mydoc.docx -t markdown -o mydoc.md
 ```
 
-### Word to github markdown
-converts docx to github-friendly markdown; stores images in folder
+__Word to github markdown__:  converts docx to github-friendly markdown; stores images in folder
 ```
 pandoc --extract-media=. -s mydoc.docx -t gfm -o mddoc.md
 ```
