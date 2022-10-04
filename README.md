@@ -5,7 +5,7 @@ vista document library to html
 
 
 ### docx to html
-converts docx to html; stores images to external media folder; adss css styling
+converts docx to html; stores images to external media folder; adds css styling
 ```
 pandoc --extract-media=. -s INPUTFILE.docx -t html -c styles.css -o OUTPUTFILE.html
 ```
