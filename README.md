@@ -1,6 +1,5 @@
-## VDL to HTML
-vista document library to html
-
+## VDL to web-friendly form
+vista document library converson to web-friendly forms
 
 
 
