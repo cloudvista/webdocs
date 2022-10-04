@@ -4,9 +4,9 @@ vista document library to html
 
 
 
-### pandoc docx to html + css
+### word to html (with media+ css
 ```
-pandoc --extract-media=. -s tech_manual.docx -t html -c styles.css -o tech_manual.html
+pandoc --extract-media=. -s INPUTFILE.docx -t html -c styles.css -o OUTPUTFILE.html
 ```
 
 
