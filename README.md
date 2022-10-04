@@ -5,17 +5,17 @@ Vista document library converson to web-friendly forms using pandoc.  Images are
 
 __Word to html__
 ```
-pandoc --extract-media=images -s mydoc.docx -t html -c styles.css -o mydoc.html
+pandoc --extract-media=images -s INPUT.docx -t html -c styles.css -o OUTPUT.html
 ```
 
 __Word to markdown__
 ```
-pandoc --extract-media=images -s mydoc.docx -t markdown -o mydoc.md
+pandoc --extract-media=images -s INPUT.docx -t markdown -o OUTPUT.md
 ```
 
 __Word to github markdown__
 ```
-pandoc --extract-media=images -s mydoc.docx -t gfm -o mddoc.md
+pandoc --extract-media=images -s INPUT.docx -t gfm -o OUTPUT.md
 ```
 
 
