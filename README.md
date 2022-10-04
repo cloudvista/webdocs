@@ -1,5 +1,7 @@
 ## VDL to web-friendly form
-vista document library converson to web-friendly forms
+Vista document library converson to web-friendly forms using pandoc. 
+
+Images are stored in external 'images' folder; styling is referenced to in styles.css file. 
 
 
 
@@ -15,7 +17,7 @@ pandoc --extract-media=images -s mydoc.docx -t markdown -o mydoc.md
 
 __Word to github markdown__
 ```
-pandoc --extract-media=. -s mydoc.docx -t gfm -o mddoc.md
+pandoc --extract-media=images -s mydoc.docx -t gfm -o mddoc.md
 ```
 
 
