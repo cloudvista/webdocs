@@ -3,17 +3,18 @@ vista document library to html
 
 
 
-## pandoc docx to html + css
+
+### pandoc docx to html + css
 ```
 pandoc --extract-media=. -s tech_manual.docx -t html -c styles.css -o tech_manual.html
 ```
 
 
-## references
+### references
 https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
 
-## styles.css
+### styles.css
 ```css
 html {
     line-height: 1.0;
