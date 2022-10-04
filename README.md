@@ -3,45 +3,31 @@ vista document library converson to web-friendly forms
 
 
 
-#### docx to html
+### Word to html
 converts docx to html; stores images to external media folder; adds css styling
 ```
 pandoc --extract-media=images -s mydoc.docx -t html -c styles.css -o mydoc.html
 ```
 
-
-#### docx to markdown
+### Word to markdown
 converts docx to markdown; stores images in folder
 ```
 pandoc --extract-media=images -s mydoc.docx -t markdown -o mydoc.md
 ```
 
-
-#### docx to github markdown
+### Word to github markdown
 converts docx to github-friendly markdown; stores images in folder
 ```
 pandoc --extract-media=. -s mydoc.docx -t gfm -o mddoc.md
 ```
 
 
-## references
-<details>
-  <summary>Reference Section</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
 
-
-
-#### references
+### references
 https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
 
-#### styles.css
+### styles.css
 ```css
 html {
     line-height: 1.0;
@@ -51,3 +37,13 @@ html {
     background-color: #fdfdfd;
  }
 ```
+
+
+<details>
+  <summary>Reference Section</summary>
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
