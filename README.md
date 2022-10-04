@@ -4,18 +4,32 @@ vista document library to html
 
 
 
-### docx to html
+#### docx to html
 converts docx to html; stores images to external media folder; adds css styling
 ```
-pandoc --extract-media=. -s INPUTFILE.docx -t html -c styles.css -o OUTPUTFILE.html
+pandoc --extract-media=images -s mydoc.docx -t html -c styles.css -o mydoc.html
 ```
 
 
-### references
+#### docx to markdown
+converts docx to markdown; stores images in folder
+```
+pandoc --extract-media=images -s mydoc.docx -t markdown -o mydoc.md
+```
+
+
+#### docx to github markdown
+converts docx to github-friendly markdown; stores images in folder
+```
+pandoc --extract-media=. -s mydoc.docx -t gfm -o mddoc.md
+```
+
+
+#### references
 https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
 
-### styles.css
+#### styles.css
 ```css
 html {
     line-height: 1.0;
