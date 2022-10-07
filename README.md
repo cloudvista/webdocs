@@ -3,7 +3,7 @@
 
 ### Reference
 
-Microsoft documentatioin toolchain (open-source):
+Microsoft documentatioin toolchain:
 https://github.com/MicrosoftDocs
 
 
