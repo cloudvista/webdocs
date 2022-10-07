@@ -9,8 +9,7 @@ https://github.com/MicrosoftDocs
 
 
 ### Pandoc
-Vista document library converson to web-friendly forms using pandoc.  
-Images stored in external images/media folder; html styles in styles.css file. 
+Vista document library converson to web-friendly forms using pandoc. Images stored in external images/media folder; html styles in styles.css file.  Reference: https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
 ```text
 Word to html:
@@ -21,13 +20,8 @@ pandoc --extract-media=images -s INPUT.docx -t markdown -o OUTPUT.md
 
 Word to github markdown:
 pandoc --extract-media=images -s INPUT.docx -t gfm -o OUTPUT.md
-```
 
-https://blog.atwork.at/post/Convert-documents-with-Pandoc
-
-
-### styles.css
-```css
+Styles.css:
 html {
     line-height: 1.0;
     font-family: sans-serif;
