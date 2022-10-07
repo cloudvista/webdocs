@@ -1,8 +1,7 @@
 # Web documentation toolchains
 
 
-### Micorosoft toolchain
-
+### Microsoft Docs toolchain (open-source)
 Microsoft documentatioin toolchain:
 https://github.com/MicrosoftDocs
 
