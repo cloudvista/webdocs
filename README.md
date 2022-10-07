@@ -1,27 +1,28 @@
-## VDL to web-friendly form
+# Web documentation toolchains
+
+
+### Reference
+
+Microsoft documentatioin toolchain (open-source):
+https://github.com/MicrosoftDocs
+
+
+
+### Pandoc
 Vista document library converson to web-friendly forms using pandoc.  
 Images stored in external images/media folder; html styles in styles.css file. 
 
-
-
-__Word to html__
-```
+```text
+Word to html:
 pandoc --extract-media=images -s INPUT.docx -t html -c styles.css -o OUTPUT.html
-```
 
-__Word to markdown__
-```
+Word to markdown:
 pandoc --extract-media=images -s INPUT.docx -t markdown -o OUTPUT.md
-```
 
-__Word to github markdown__
-```
+Word to github markdown:
 pandoc --extract-media=images -s INPUT.docx -t gfm -o OUTPUT.md
 ```
 
-
-
-### references
 https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
 
