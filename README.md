@@ -10,17 +10,17 @@ Vista document library converson to web-friendly forms using pandoc.
 Images stored in external images/media folder; html styles in styles.css file.  
 https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
-```text
-Word to html:
+__Word to html__  
 pandoc --extract-media=images -s INPUT.docx -t html -c styles.css -o OUTPUT.html
 
-Word to markdown:
+__Word to markdown__  
 pandoc --extract-media=images -s INPUT.docx -t markdown -o OUTPUT.md
 
-Word to github markdown:
+__Word to github markdown__  
 pandoc --extract-media=images -s INPUT.docx -t gfm -o OUTPUT.md
 
-Styles.css:
+__Styles.css__   
+```
 html {
     line-height: 1.0;
     font-family: sans-serif;
