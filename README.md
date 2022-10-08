@@ -1,5 +1,6 @@
 # Documentation toolchains
 Docs as Code  
+https://www.writethedocs.org/guide/docs-as-code  
 https://betterprogramming.pub/solution-architecture-docs-as-code-366a7b40f9e5  
 https://idratherbewriting.com/trends/trends-to-follow-or-forget-docs-as-code.html  
 https://blog.cloudflare.com/our-docs-as-code-approach  
