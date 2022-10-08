@@ -1,4 +1,4 @@
-# Web documentation toolchains
+# Web docs toolchains
 
 
 ## Microsoft toolchain
