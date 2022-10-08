@@ -1,12 +1,16 @@
 # Documentation toolchains
-Documentation as Code
-
+Docs as Code  
+https://betterprogramming.pub/solution-architecture-docs-as-code-366a7b40f9e5  
+https://idratherbewriting.com/trends/trends-to-follow-or-forget-docs-as-code.html  
+https://blog.cloudflare.com/our-docs-as-code-approach  
+https://github.com/docToolchain/docToolchain  
+http://doctoolchain.org/docToolchain  
 
 
 
 ## Microsoft toolchain
-https://github.com/MicrosoftDocs
-
+https://github.com/MicrosoftDocs  
+https://learn.microsoft.com/en-us/teamblog/a-new-feedback-system-is-coming-to-docs
 
 
 
