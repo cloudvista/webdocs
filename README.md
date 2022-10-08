@@ -1,16 +1,13 @@
 # Web documentation toolchains
 
 
-### Microsoft Docs toolchain (open-source)
-Microsoft documentatioin toolchain
-
+### Microsoft Docs toolchain (open-source)  
+Microsoft documentatioin toolchain  
 https://github.com/MicrosoftDocs
 
-
-
 ### Pandoc toolchain
-Vista document library converson to web-friendly forms using pandoc. Images stored in external images/media folder; html styles in styles.css file.  
-
+Vista document library converson to web-friendly forms using pandoc.  
+Images stored in external images/media folder; html styles in styles.css file.  
 https://blog.atwork.at/post/Convert-documents-with-Pandoc
 
 
